@@ -1,0 +1,37 @@
+.MainTable{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.formular{
+  width: 300px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  transform: translateX(-50%);
+  margin-top: 20px;
+  background-color: 'blue'
+}
+label{
+  text-align: left;
+}
+.info{
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  margin-top: 20px;
+}
+.MainPage{
+  display: flex;
+  justify-content: center;
+}
